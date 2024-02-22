@@ -1,4 +1,4 @@
-from django.shortcuts import render
+'''from django.shortcuts import render
 # here we import Movie class from model.py of watchlist_app manually
 from watchlist_app.models import Movie
 # here we import JsonResponse class from django.http
@@ -19,4 +19,4 @@ def movie_details(request,pk):
          'active': movies.active
          }
     return JsonResponse(data)
-#----------------------------------------------------------------------------------------------------------------------
+#----------------------------------------------------------------------------------------------------------------------'''
